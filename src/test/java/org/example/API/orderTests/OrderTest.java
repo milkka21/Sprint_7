@@ -1,5 +1,6 @@
 package org.example.API.orderTests;
 
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -13,8 +14,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
-
-
 
 @RunWith(Parameterized.class)
 public class OrderTest {
